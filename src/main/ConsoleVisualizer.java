@@ -1,4 +1,4 @@
-package run;
+package main;
 
 import model .*;
 import solvers.TetrisSolver;

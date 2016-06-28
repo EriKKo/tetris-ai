@@ -1,4 +1,4 @@
-package run;
+package main;
 
 import controllers.MoveTyper;
 import controllers.TetrisFriendsPlayer;
