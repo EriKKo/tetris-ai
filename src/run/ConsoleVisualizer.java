@@ -4,7 +4,10 @@ import model .*;
 import solvers.TetrisSolver;
 import util.TetriminoRandomizer;
 
-public class VisualizeGame {
+/**
+ *  Class used to visualize a tetris ai-player in the console.
+ */
+public class ConsoleVisualizer {
     
     public static void main(String[] args) throws InterruptedException {
         TetriminoRandomizer rand = new TetriminoRandomizer();

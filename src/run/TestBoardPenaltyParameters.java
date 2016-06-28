@@ -7,6 +7,11 @@ import util.TetriminoRandomizer;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ *  Class used to test new board penalty parameters for the ai. If new,
+ *  better parameters are found, the default ones can be substituted in the
+ *  BoardPenaltyParameters class.
+ */
 public class TestBoardPenaltyParameters {
     public static void main(String[] args) {
         int numTries = 10;

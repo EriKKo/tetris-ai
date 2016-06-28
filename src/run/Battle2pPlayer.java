@@ -6,6 +6,13 @@ import solvers.TetrisSolver;
 
 import java.awt.*;
 
+/**
+ *  Class that can be used to play the Battle 2P mode at tetrisfriends.com.
+ *
+ *  The board coordinates are completely hard coded and will probably have to be
+ *  adjusted depending on screen resolution and possible gui-changes on the target website.
+ *  Examples of successful screen reads can be found in the root directory.
+ */
 public class Battle2pPlayer {
 
     static final int BOARD_X = 443;
